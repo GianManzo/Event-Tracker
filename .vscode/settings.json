@@ -1,3 +1,11 @@
 {
-  "typescript.tsdk": "node_modules\\typescript\\lib"
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "files.exclude": {
+    "README.md": true,
+    ".gitignore": true,
+    "public": true,
+    "node_modules": true,
+    "package.json": true,
+    "package-lock.json": true
+  }
 }
