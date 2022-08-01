@@ -12,13 +12,13 @@ function App() {
 
   const [filtro, setFiltro] = useState<Date | null>()
 
-  const adicionarEvento = (evento: IEvento) => {
-    evento.id = Math.round((new Date()).getTime() / 1000)
-    // eventos.push(evento)
-    // console.log(eventos);
+  //const adicionarEvento = (evento: IEvento) => {
+  //evento.id = Math.round((new Date()).getTime() / 1000)
+  // eventos.push(evento)
+  // console.log(eventos);
 
-    // setEventos([...eventos])
-  }
+  // setEventos([...eventos])
+  //}
   //const alterarStatusEvento = (id: number) => {
   // const evento = eventos.find(evento => evento.id === id)
   // if (evento) {
